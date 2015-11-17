@@ -2,4 +2,12 @@
 /*div span { color: skyblue; }*/
 /*div > span { color: skyblue; }*/
 /*p + p { color: skyblue; }*/
-p.item { color: skyblue; }
+body { background: skyblue; }
+#title { color: blue; }
+.item { color: black; }
+div span { color: red; }
+.article { background: orange; }
+/*#05*/
+.link a[href="http//google.com"] { color: blue; }
+.link a[title] { color: violet; }
+.link a[class~="search"] { color: red; }
