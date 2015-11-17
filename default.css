@@ -1,3 +1,5 @@
-h1 { color: skyblue; }
-.item { color: orange; }
-#new { color: red; }
+/*h1, p { color: skyblue; }*/
+/*div span { color: skyblue; }*/
+/*div > span { color: skyblue; }*/
+/*p + p { color: skyblue; }*/
+p.item { color: skyblue; }
