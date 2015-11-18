@@ -6,8 +6,35 @@ body { background: skyblue; }
 #title { color: blue; }
 .item { color: black; }
 div span { color: red; }
-.article { background: orange; }
+.practice { background: orange; }
 /*#05*/
 .link a[href="http//google.com"] { color: blue; }
 .link a[title] { color: violet; }
 .link a[class~="search"] { color: red; }
+/*#06*/
+.month a:link { color: brown; }
+ul li:first-child { color: red; }
+.ex06 > a:link { color: blue; }
+.ex06 a:visited { color: red; }
+.ex06 a:hover { color: green; }
+.ex06 a:active { color: violet; }
+.ex06 input { background: skyblue; }
+.ex06 input:focus { background: white; }
+.balloon {
+  position: relative;
+  width: 200px;
+  height: 30px;
+  background-color: #ccc;
+  text-align: center;
+}
+.balloon .triangle {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -10px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid #ccc;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
