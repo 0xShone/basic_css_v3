@@ -41,3 +41,12 @@ ul li:first-child { color: red; }
 /*#06*/
 .ex07 #paint-first-letter:first-letter { color: red; }
 .ex07 #paint-first-paragraph:first-line { color: red; }
+/*#07*/
+/* 0, 0, 0, 1 */
+.ex07 a { color: skyblue !important; }
+/* 0, 0, 1, 1 */
+.ex07 a.link { color: pink; }
+/* 0, 0, 1, 1 */
+.ex07 a.search { color: orange; }
+/* 0, 1, 0, 1 */
+.ex07 a#site { color: blue; }
