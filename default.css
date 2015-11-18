@@ -9,7 +9,7 @@ div span { color: red; }
 .practice { background: orange; }
 /*#05*/
 .link a[href="http//google.com"] { color: blue; }
-.link a[title] { color: violet; }
+.link a[title] { color: green; }
 .link a[class~="search"] { color: red; }
 /*#06*/
 .month a:link { color: brown; }
@@ -38,3 +38,6 @@ ul li:first-child { color: red; }
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
+/*#06*/
+.ex07 #paint-first-letter:first-letter { color: red; }
+.ex07 #paint-first-paragraph:first-line { color: red; }
