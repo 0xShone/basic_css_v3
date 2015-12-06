@@ -13,7 +13,7 @@ div span { color: red; }
 .link a[class~="search"] { color: red; }
 /*#06*/
 .month a:link { color: brown; }
-ul li:first-child { color: red; }
+.ex06 ul li:first-child { color: red; }
 .ex06 > a:link { color: blue; }
 .ex06 a:visited { color: red; }
 .ex06 a:hover { color: green; }
@@ -50,3 +50,14 @@ ul li:first-child { color: red; }
 .ex07 a.search { color: orange; }
 /* 0, 1, 0, 1 */
 .ex07 a#site { color: blue; }
+
+/*#09*/
+.ex09 #size01 { font-size: 16px;}
+.ex09 #size02 { font-size: 2em;}
+.ex09 #size03 { font-size: 150%;}
+
+.ex09 #color01 { color: blue;}
+.ex09 #color02 { color: #00f;}
+.ex09 #color03 { color: #951207;}
+.ex09 #color04 { color: rgb(255, 0, 0);}
+.ex09 h1 { color: rgb(0%, 0%, 100%);}
